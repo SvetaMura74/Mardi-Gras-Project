@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Home</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Henny+Penny&family=Pattaya&family=Roboto&display=swap"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="css/styleHome.css" />
+  </head>
+
+  <body>
+    <!-- //nav bar -->
+    <nav
+      class="navbar sticky-top navbar-expand-sm navbar-light"
+      style="background-color: #8cbf3f; font-family: Pattaya; font-size: 1.2em"
+    >
+      <div class="container" name="navBar">
+        <a href="#" class="navbar-brand mb-0 h1">
+          <img
+            class="d-inline-block align-top"
+            src="images/MardiGraslogo.png"
+            width="150"
+            height="60"
+          />
+        </a>
+        <button
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          class="navbar-toggler"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-lable="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav navbar ">
+            <li class="nav-item active">
+              <a href="index.html" class="nav-link active">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="about.html" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="media.html" class="nav-link">Media</a>
+            </li>
+            <li class="nav-item">
+              <a href="FAQ.html" class="nav-link">FAQ</a>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link">Contacts</a>
+            </li>
+          </ul>
+        </div>
+        <form class="d-flex">
+          <input type="text" class="form-control me-2" />
+          <button type="submit" class="btn btn-light">Search</button>
+        </form>
+      </div>
+    </nav>
+    <!-- end navbar -->
+    <div class="container mt-2 ">
+      <h1 class="text-center ">Welcome to Mardi Gras New Orleans!</h1>
+      <h2 class="text-center">The Party Starts Here!</h2>
+    </div>
+    <div class="container m-2 d-sm-block d-md-none d-lg-none justify-content-center">
+      <img src="images/The Parade.jpg" alt="The Parade"/>
+
+    </div>
+
+    <!-- slider -->
+    <div
+      class="container d-none d-lg-block"
+      style="
+        width: 650px;
+        height: 435px;
+        padding: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      "
+    >
+      <!-- Carousel -->
+      <div id="demo" class="carousel slide" data-bs-ride="carousel">
+        <!-- Indicators/dots -->
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#demo"
+            data-bs-slide-to="0"
+            class="active"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#demo"
+            data-bs-slide-to="1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#demo"
+            data-bs-slide-to="2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#demo"
+            data-bs-slide-to="3"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#demo"
+            data-bs-slide-to="4"
+          ></button>
+        </div>
+
+        <!-- The slideshow/carousel -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="images/carousel_img/pic1carousel.jpg"
+              alt="pic1"
+              class="d-block"
+              style="width: 100%"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="images/carousel_img/pic2carousel.jpg"
+              alt="pic2"
+              class="d-block"
+              style="width: 100%"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="images/carousel_img/pic3carousel.jpg"
+              alt="pic3"
+              class="d-block"
+              style="width: 100%"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="images/carousel_img/pic4carousel.jpg"
+              alt="pic4"
+              class="d-block"
+              style="width: 100%"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="images/carousel_img/pic5carousel.jpg"
+              alt="pic5"
+              class="d-block"
+              style="width: 100%"
+            />
+          </div>
+        </div>
+
+        <!-- Left and right controls/icons -->
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#demo"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#demo"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+    </div>
+    <!-- end of slider -->
+
+    <!-- articles -->
+    <div class="container ">
+      <div class="row">
+        <div class="col-sm-6 " title="articles">
+          <h2 class="artheading"> Our History</h2>
+          The origins of Mardi Gras can be traced to medieval Europe, passing
+          through Rome and Venice in the 17th and 18th centuries to the French
+          House of the Bourbons. From here, the traditional revelry of "Boeuf
+          Gras," or fatted calf, followed France to her colonies. On March 2,
+          1699, French-Canadian explorer Jean Baptiste Le Moyne Sieur de
+          Bienville arrived at a plot of ground 60 miles directly south of New
+          Orleans, and named it "Pointe du Mardi Gras" when his men realized it
+          was the eve of the festive holiday. Bienville also established "Fort
+          Louis de la Louisiane" (which is now Mobile) in 1702. In 1703, the
+          tiny settlement of Fort Louis de la Mobile celebrated America's very
+          first Mardi Gras. In 1704, Mobile established a secret society (Masque
+          de la Mobile), similar to those that form our current Mardi Gras
+          krewes. It lasted until 1709.
+        </div>
+        <div class="col-sm-6 " title="articles">
+          <h2 class="artheading"> Our Traditions</h2>
+          Mardi Gras is about music, parades, picnics, floats and excitement.
+          It's one big holiday in New Orleans! Revelers know to wear costumes or
+          at least dress in purple, green, and gold, and adorn themselves with
+          long beads caught from the floats of previous parades. You'll see a
+          lot of crazy costumes, kids with their families are everywhere, and
+          both locals and visitors having a great time. Parade goers will sit on
+          the ground, throw balls, play music, eat great food and watch the
+          crowds walk by between parades. On Mardi Gras day, the majority of
+          non-essential businesses are shut down because of the celebration.
+          Experienced revelers know to bring a large bag with them so they can
+          haul away all the beads and trinkets they will catch from the parades!
+          Every year, we get a lot of questions about how it all begin, and how
+          the traditions have changed.
+        </div>
+      </div>
+    </div>
+
+    <!-- end of articles -->
+
+    <!--  sponsors -->
+<h2 class="artheading mt-3">Our Friends and Partners</h2>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6 col-lg-3">
+          <div class="card">
+            <img
+              class="card-img-top"
+              src="images/sponsorsWalkones.jpg"
+              alt="Walcones"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Walk-On's Bistreaux and Bar</h5>
+              <p class="card-text">
+                The Walk-Ons’ Way (WOW) is to make guests and teammates feel
+                important and treat them like family.
+              </p>
+
+              <a
+                href="https://walk-ons.com/"
+                class="btn btn-outline-secondary"
+                target="_blank"
+                >Visit Site</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3">
+          <div class="card">
+            <img
+              class="card-img-top"
+              src="images/sponsorsSheraton.jpg"
+              alt="Sheraton"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Sheraton New Orleans Hotel</h5>
+              <p class="card-text">
+                On the historic Canal Street streetcar line bordering the French
+                Quarter, the hotel is steps from world-famous restaurants,
+                legendary nightlife, prime shopping and Harrah's Casino.
+              </p>
+
+              <a
+                href="https://www.neworleans.com/"
+                target="_blank"
+                class="btn btn-outline-secondary"
+                >Visit Site</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-3">
+          <div class="card">
+            <img
+              class="card-img-top"
+              src="images/sponsorsRitzCarlton.jpg"
+              alt="Ritzcarlton"
+            />
+            <div class="card-body">
+              <h5 class="card-title">The Ritz-Carlton, New Orleans</h5>
+              <p class="card-text">
+                Rich in history and personality, New Orleans is unlike any other
+                US city. Honoring its spirit and elegance, The Ritz-Carlton, New
+                Orleans invites visitors to its French Quarter retreat, set
+                within a 1908
+              </p>
+
+              <a
+                href="https://www.ritzcarlton.com/"
+                target="_blank"
+                class="btn btn-outline-secondary"
+                >Visit Site
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3">
+          <div class="card">
+            <img
+              class="card-img-top"
+              src="images/sponsorsParkingP402.png"
+              alt="Parking P402"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Premium Parking - P402</h5>
+              <p class="card-text">
+                We live at the intersection of parking and technology. We are a
+                technology company, a parking operator, and network of parking
+                advisors to bring it all together.
+              </p>
+
+              <a
+                href="https://www.premiumparking.com/P402/"
+                target="_blank"
+                class="btn btn-outline-secondary"
+                >Visit Site</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6 col-lg-3">
+          <div class="card">
+            <img
+              class="card-img-top"
+              src="images/sponsorsChildrenMuseum.png"
+              alt="LCM"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Louisiana Children's Museum</h5>
+              <p class="card-text">
+                .When you make a child’s potential visible, wonderful things
+                happen. So we created a place where kids use play, shared
+                exploration, and conversation to connect with the world around
+                them.
+              </p>
+              <a
+                href="https://lcm.org/"
+                class="btn btn-outline-secondary"
+                target="_blank"
+                >Visit Site</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3">
+          <div class="card">
+            <img
+              class="card-img-top"
+              src="images/sponsorsMuseumOfDeath.jpg"
+              alt="Museum of Death"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Museum of Death</h5>
+              <p class="card-text">
+                The World Famous Museum of Death was founded in June, 1995 when
+                JD Healy and Cathee Shultz decided to fill the void in death
+                education in this country and made death their life’s work.
+              </p>
+              <a
+                href="http://www.museumofdeath.net/"
+                class="btn btn-outline-secondary"
+                target="_blank"
+                >Visit Site</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-3">
+          <div class="card">
+            <img
+              class="card-img-top"
+              src="images/sponsorsHauntedMuseum.png"
+              alt="Haunted Museum"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Haunted Museum</h5>
+              <p class="card-text">
+                Born on the bayou, Bloody Mary was raised in the Crescent City.
+                She grew up to be a profound priestess who also serves her
+                hometown of New Orleans as a Culture bearer.
+              </p>
+              <a
+                href="https://www.bloodymarystours.com/"
+                class="btn btn-outline-secondary"
+                target="_blank"
+                >Visit Site
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3">
+          <div class="card">
+            <img
+              class="card-img-top"
+              src="images/sponsorsAceHotel.jpg"
+              alt="Ace Hotel"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Ace Hotel New Orleans</h5>
+              <p class="card-text">
+                Located in the Warehouse District of New Orleans, within a
+                5-minute walk to Harrah's Casino, Ace Hotel New Orleans features
+                a rooftop bar and award-winning restaurant.
+              </p>
+              <a
+                href="https://acehotel.com/"
+                class="btn btn-outline-secondary"
+                target="_blank"
+                >Visit Site</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end of sponsors area -->
+      <!-- form before footer: -->
+    </div>
+    <!-- end of sponsors area -->
+
+    <!-- footer -->
+
+    <section class="section-subscribe bg-light">
+      <div class="container">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-md-12 mb-4">
+            <h1 class="heading">Get news &amp; updates</h1>
+          </div>
+          <div class="col-md-12">
+            <form action="" method="POST">
+              <div class="row">
+                <div class="col-md-4 mb-4">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Your name here"
+                  />
+                </div>
+                <div class="col-md-4 mb-4">
+                  <input
+                    type="email"
+                    class="form-control"
+                    placeholder="Your email here"
+                  />
+                </div>
+                <div class="col-md-4 mb-4">
+                  <input
+                    type="submit"
+                    class="btn btn-secondary w-100"
+                    value="subscribe"
+                  />
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-md-3 mb-5">
+            <h2>About us</h2>
+            <p>
+              Mardi Gras refers to events of the Carnival celebration, beginning
+              on or after the Christian feasts of the Epiphany (Three Kings Day)
+              and culminating on the day before Ash Wednesday, which is known as
+              Shrove Tuesday
+            </p>
+          </div>
+          <div class="col-md-3 mb-5">
+            <h2>Contact &amp; address</h2>
+            <ul class="list-unstyled footer-link">
+              <li class="d-flex">
+                <span class="me-3">Address</span>
+                <span class="text-white">New Orleans ,USA</span>
+              </li>
+              <li class="d-flex">
+                <span class="me-3">Telephone</span>
+                <span class="text-white">The telephone number</span>
+              </li>
+              <li class="d-flex">
+                <span class="me-3">Email</span>
+                <span class="text-white">mgras@mardigrasneworleans.com</span>
+              </li>
+            </ul>
+          </div>
+          <div class="col md-3 mb-5">
+            <h2>Quick links</h2>
+            <ul class="list-unstyled footer-link">
+              <li>
+                <a href="https://www.bestneworleanshotels.com/" target="_blank"
+                  >New Orleans Hotels</a
+                >
+              </li>
+              <li>
+                <a href="https://www.neworleansrestaurants.com/" target="_blank"
+                  >New Orleans Restaurants</a
+                >
+              </li>
+              <li>
+                <a href="https://www.experienceneworleans.com/" target="_blank"
+                  >Experience New Orleans!</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <h2>Our social media</h2>
+            <ul class="list-unstyled footer-link d-flex footer-social">
+              <li>
+                <a
+                  href="https://www.facebook.com/MardiGrasNewOrleans"
+                  target="_blank"
+                  ><span class="bi bi-facebook"></span
+                ></a>
+              </li>
+              <li>
+                <a href="https://twitter.com/MardiGrasNOLA" target="_blank"
+                  ><span class="bi bi-twitter"></span
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.instagram.com/mardigrasneworleans/"
+                  target="_blank"
+                  ><span class="bi bi-instagram"></span
+                ></a>
+              </li>
+              <li>
+                <a href="#"><span class="bi bi-whatsapp"></span></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.youtube.com/channel/UCOrq1qF6dVDn9Do-wvbKh0Q"
+                  ><span class="bi bi-youtube" target="_blank"></span
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 text md center text-left">
+            <p>Copyright © 2022 All rights reserved by Svetlana Muratov</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+   <!--  end of footer -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

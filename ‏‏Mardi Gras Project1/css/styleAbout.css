@@ -1,0 +1,56 @@
+
+ * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    } 
+    h2{
+      font-family: Pattaya;
+    }
+
+    p{
+      font-family: Roboto;
+    } 
+     #invitation{
+      font-family:Roboto;
+      font-size: 1.3em;
+
+    }
+    #article1About {
+      font-family: Roboto;
+      font-size: 1.2em;
+      border: 2px solid #000;
+      border-radius: 10px;
+     background-color:rgba(242,204,15,.2); 
+      transition: all 1s ease-in-out;
+      transform: translateX(+100px);
+      opacity: 0;
+      
+
+
+    }
+    #article1About:hover{
+       transform: translateX(0px); 
+      opacity: 1;
+    }
+    #article2About{
+      font-family: Roboto;
+      font-size: 1.2em;
+      border: 2px solid #000;
+      border-radius: 10px;
+       background-color: rgba(140,191,63,.5); 
+      transition: all 1s ease-in-out;
+      transform: translateX(100px);
+      opacity: 0;
+
+    }
+    #article2About:hover{
+      transform: translateX(0px);
+      opacity: 1;
+      
+    } 
+    style attribute {
+    animation-delay: 0.2s;
+    visibility: visible;
+    animation-name: fadeInLeft;
+}
